@@ -16,6 +16,7 @@ const TodoForm: React.FC = () => {
 
   const addTodo = () => {
     dispatch(addTodoAction(inputState));
+    setInputState('');
   }
 
   return (
